@@ -7,8 +7,8 @@ opencv-python>=4.1.1
 Pillow>=7.1.2
 PyYAML>=5.3.1
 requests>=2.23.0
-scipy>=1.4.1
 tqdm>=4.41.0
+scipy
 protobuf<4.21.3
 
 # Logging -------------------------------------
@@ -19,13 +19,12 @@ tensorboard>=2.4.1
 pandas>=1.1.4
 seaborn>=0.11.0
 plotly
-scipy
 
 # Export --------------------------------------
 # coremltools>=4.1  # CoreML export
 onnx>=1.9.0  # ONNX export
 onnx-simplifier>=0.3.6  # ONNX simplifier
-scikit-learn # CoreML quantization
+scikit-learn
 tensorflow>=2.4.1  # TFLite export
 keras
 # tensorflowjs>=3.9.0  # TF.js export
