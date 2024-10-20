@@ -7,7 +7,7 @@
 
 ## Kullanımı şu şekildedir ; 
 
-```bash
+```
   pip3 install -r requirements.txt
 ```
 
